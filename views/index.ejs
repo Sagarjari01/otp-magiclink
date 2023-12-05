@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Login</title>
+</head>
+
+<body>
+    <form method="post" action="/" id="myForm">
+        <table class=" flex text-center justify-center pt-20 ">
+            <tr class="">
+                <td class="text-left"><label  for="number">Mobile number</label></td>
+                <td><input class="border w-[250px]"  type="number" name="number" placeholder="Number with country code" required></td>
+            </tr>
+            <tr>
+                <td class="text-left"><label for="email">Email</label></td>
+                <td><input class="border w-[250px]" type="email" name="email" placeholder="Email" value=""></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit" class="  bg-green-300 w-1/2 text-center justify-center rounded-lg mt-2">Login</button></td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+
+</html>
